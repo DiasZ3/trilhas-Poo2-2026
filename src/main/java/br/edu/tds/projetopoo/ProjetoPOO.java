@@ -3,7 +3,7 @@ package br.edu.tds.projetopoo;
 
 /**
  *
- * @author aluno
+ * @author Gabriel
  */
 public class ProjetoPOO {
 
