@@ -26,6 +26,25 @@ public class Cliente {
     }
     
     //metodos get & set
+    public void setNome(String n){
+        this.nome = n;
+    }
+    public void setIdade(int i){
+        this.idade = i;
+    }
+    public void setcpf(String cpf){
+        this.cpf = cpf;
+    }
+    public String getNome(){
+        return this.nome;
+    }
+    public int getIdade(){
+        return this.idade;
+    }
+    public String getCPF(){
+        return this.cpf;
+    }
+    
     
     
     
@@ -36,7 +55,7 @@ public class Cliente {
         System.out.println("nome: " + this.nome);
         System.out.println("idade: " + this.idade);
         System.out.println("CPF: " + this.cpf);
+        System.out.println("-------------------------");
     }
-    
     
 }
